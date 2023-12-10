@@ -1,0 +1,47 @@
+body{
+	margin-left: 20px;
+	margin-right:120px;
+}
+
+.red{
+	position:relative;
+	display:flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+
+/* prvi red */
+#naslov{
+	width:70%;
+	text-align: center;
+}
+#novi-logo{
+	height:115px;
+}
+
+
+/* drugi red */
+ #navigacija{
+	width: 30%;
+}
+#paragraf-o-skoli{
+	height:160px;
+	width: 30%;
+	font-family:sans-serif;
+	color:#56ACDE;
+}
+
+/* treci red */
+.zut{
+	width:300px;
+	height:100px;
+	background-color:#F9DD2D;
+	margin: 50px 30px 10px 0
+}
+
+/* cetvrti red */
+#stepenice{
+	height:150px;
+	width:100%;
+}
