@@ -1,0 +1,40 @@
+header{
+	display:flex;
+	flex-direction:row;
+	position: relative;
+	background-color: blue;
+	height: 100px;
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+#sredina,#meni,#tekst-desno{
+margin: 15px 15px 15px 15px;
+}
+#sredina{
+	display: flex;
+	flex-direction:row;
+	position: relative;
+
+}
+#meni{
+	position: relative;
+	display: flex;
+	background-color:yellow;
+	height:250px;
+	flex:30%;
+}
+#tekst-desno{
+	position: relative;
+	display:flex;
+	background-color: lightgreen;
+	height: 250px;
+	flex:70%;
+}
+footer{
+	width:100%;
+	background-color: red;
+	height:60px;
+	display: flex;
+	position: relative
+	margin: 15px 0 0 0;
+}
