@@ -1,0 +1,130 @@
+header{
+ height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index:100;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color:rgb(222, 222, 222);
+  margin-bottom: 20px;
+}
+.left-section{
+	padding-left:20px;
+  align-items:center;
+  display: flex;
+}
+.middle-section{
+  display: flex;
+  align-items:center;
+	justify-content: center;
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 470px;
+}
+.middle-section h1{
+	align-items: center;
+	justify-content: center;
+}
+.right-section{
+  width:180px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-right:20px;
+  flex-shrink:0;
+}
+
+.dropdown{
+	display:inline-block;
+	height:55px;
+}
+
+.dropdown button{
+	
+	color:black;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+	height:55px;
+	width: 100px;
+	font-size: 20px;
+
+
+}
+.dropdown a{
+	display:block;
+	color: black;
+	text-decoration: none;
+	padding: 10px 15px;
+	font-size: 20px;
+	
+}
+.dropdown .content{
+	display: none;
+	position: absolute;
+	background-color: hsl(0,0%,80%);
+	width: 350px;
+	box-shadow: 2px 2px 5px hsl(0,0%,0%,0.8);
+	z-index: 1;
+}
+.dropdown:hover .content{
+	display: block;
+}
+.dropdown:hover button{
+		background-color: hsl(0,0%,80%);
+}
+.dropdown a:hover{
+	background-color: hsl(0,0%,85%);
+}
+.referenca{
+	font-size:20px;
+}
+.mini-info{
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(0,0%,80%);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  width: 250px;
+  height: 120px;
+  position: absolute;
+  padding: 15px;
+  bottom: -67px;
+  opacity: 0;
+align-items: center;
+z-index: 10;
+  transform: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  right:10px;
+  top:50px;
+  pointer-events: none;
+}
+
+.right-section:hover .mini-info{
+opacity: 1;
+pointer-events: auto;
+}
+
+
+.mini-text{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  gap:10px;
+}
+
+.ref{
+font-size: 14px;
+font-weight: 700;
+}

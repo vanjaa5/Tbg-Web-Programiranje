@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Елементи и операције скупова </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="sajt-glavni.css">
+		<link rel="stylesheet" href="header.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	</head>
+
+				
+	<body>
+		
+		    <header class="header">
+		<div class="left-section">
+			<div class="dropdown"> 
+				 <button class="button">Мени</button> 
+				 <div class="content">
+					 <a href="sajt-glavni.html">О скуповима</a> 
+					 <a href="pregledTeorijeSkupa.html">Елементи и основне операције скупова</a> 
+					 <a href ="svojstva-skupova.html"> Остала својства скупова</a> 
+					 <a href ="stepeni-skup.html"> Степени скуп</a> 
+					 <a href ="skupovi-informatika.html"> Скупови у инфорамтици</a>
+				 </div>
+		</div>
+      </div>
+
+      <div class="middle-section">
+        <h1>Скупови</h1>
+      </div>
+
+      <div class="right-section">
+        <div class="referenca">Референце</div>
+		 <div class="mini-info">
+        
+        <div class="mini-text">
+          <a href="https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_sets.htm" class="ref">
+          Tutorialspoint
+        </a>
+		
+        <a href="https://neramat.com/logika-i-skupovi/skupovi/" class="ref">
+          Nermata
+        
+        </a>
+		 <a href="https://www.rajak.rs/definicije/matematicka-logika-skupovi-relacije-i-funkcije/skupovi/" class="ref">
+          Rajak
+        
+        </a>
+		 <a href="https://www.youtube.com/watch?v=4TlCToZZ5gA&list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz&index=8" class="ref">
+          TrevTutor
+        
+        </a>
+		 <a href="https://medium.com/basecs/set-theory-the-method-to-database-madness-5ec4b4f05d79" class="ref">
+          medium
+        </a>
+        </div>
+
+        
+      </div>
+      </div>
+
+    </header>
+		
+		
+		
+		
+		
+		
+<div id="sredina">		
+		<div id="meni">
+		<img src="slike/operacije-skupova.png">
+			
+		</div>
+		
+		<div id="tekst-desno">
+			Скупове генерално означавамо великим словом А, док елементе скупа означавамо са малим словом A={x, y, z}. Да неки елемент припада скупу означавамо са x ∈ A, док ако елемент не припада скупу означавамо са x ∉ A. Један скуп може такође да буде елемент другог скупа нпр. B ={1,2} , A={B,2,3}. У овом случају је B само елемент скупа А, али не и његов подскуп.
+
+	Подскуп скупа је скуп који има све елементе надскупа, означава се са A ⊆ B нпр. A={1,2}, B={1,2,3} =>  A ⊆ B.
+
+	Надскуп неког скупа је скуп који садржи све елементе подскупа, означава се са  A ⊇ B нпр. B={1,2}, A={1,2,3} => A ⊇ B.
+
+	Постоје и прави подскуп и надскуп и њихова карактеристика је да дати скуп није једнак одговарајућем надскупу или подскупу, означавају се са A ⊂ B и A ⊃ B.
+
+	Кардиналност скупа је броје елемената неког скупа нпр. ако имамо скуп А={x, y, z}, његова кардиналност је |A| = 3. Једини скуп са кардиналности нула је празан скуп(∅). Напомена скупа чији је елемент празан скуп,{∅} или {{ }}, има кардиналност један
+
+		</div>
+</div>			
+		<footer>
+		
+	<b>Операције над скуповима</b>
+<br>
+<div>
+Скуп свих елемената који су елементи бар једног од два скупа назива се унија. Унија скупова A и B  се означава са A ∪ B, помоћу логичких симбола се дефинише:
+ </div>
+ 
+
+ <div>
+Скуп свих елемената који су елементи скупа а и скупа б назива се пресек скупова A и B. Пресек скупова A и B означава се са A∩B, а помоћу логичких симбола се дефинише:
+ 
+
+Скуп свих елемената скупа а који нису елементи скупа б назива се разлика скупова. Разлика скупова A и B означава се са A\B, а помоћу логичких симбола се дефинише:
+ 
+ 
+Симетрична разлика скупова А и B је унија скупова A∖B и B∖A и означава се са AΔB. Помоћу логичких симбола се дефинише:
+ </div>
+  <img src="slike/unija.jpg">
+ 
+ 
+
+
+		</footer>
+	</body>
+</html>

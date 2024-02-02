@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Степени скуп</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="sajt-glavni.css">
+		<link rel="stylesheet" href="header.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	</head>
+
+				
+	<body>
+		
+		    <header class="header">
+		<div class="left-section">
+			<div class="dropdown"> 
+				 <button class="button">Мени</button> 
+				 <div class="content"> 
+					<a href="sajt-glavni.html">О скуповима</a>
+					<a href="pregledTeorijeSkupa.html">Елементи и основне операције скупова</a> 
+					<a href ="svojstva-skupova.html"> Остала својства скупова</a> 
+					<a href ="stepeni-skup.html"> Степени скуп</a> 
+					<a href ="skupovi-informatika.html"> Скупови у инфорамтици</a>
+				 </div>
+		</div>
+      </div>
+
+      <div class="middle-section">
+        <h1>Скупови</h1>
+      </div>
+
+      <div class="right-section">
+        <div class="referenca">Референце</div>
+		 <div class="mini-info">
+        
+        <div class="mini-text">
+          <a href="https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_sets.htm" class="ref">
+          Tutorialspoint
+        </a>
+		
+        <a href="https://neramat.com/logika-i-skupovi/skupovi/" class="ref">
+          Nermata
+        
+        </a>
+		 <a href="https://www.rajak.rs/definicije/matematicka-logika-skupovi-relacije-i-funkcije/skupovi/" class="ref">
+          Rajak
+        
+        </a>
+		 <a href="https://www.youtube.com/watch?v=4TlCToZZ5gA&list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz&index=8" class="ref">
+          TrevTutor
+        
+        </a>
+		 <a href="https://medium.com/basecs/set-theory-the-method-to-database-madness-5ec4b4f05d79" class="ref">
+          medium
+        </a>
+        </div>
+
+        
+      </div>
+      </div>
+
+    </header>
+		
+		
+		
+		
+		
+		
+<div id="sredina">		
+		<div id="meni">
+		<img src="slike/powset.jpg">
+			
+		</div>
+		
+		<div id="tekst-desno">
+			Степни скуп је скуп свих подскупова датог скупа.
+			
+Процес прављења степеног скупа:
+
+Примера ради замислимо да имамо скуп А ={a, b}. Прављење степеног скупа започињемо тако што прво узимамо једини заједнички елемент сваког скупа ∅ и постављамо питање да ли да му додамо први следећи елемент скупа или не, у овом случају то је a.Одатле добијамо два скупа {a} и ∅. Настављамо даље у оба случаја са првим следећим елементом скупа, што је сада b и тако идемо до краја. У овом случају треба да добијемо скуп са елементима ∅,{a},{b},{a,b}.
+
+Кардинално степеног скупа скупа А се рачуна као 2n, n је кардиналност скупа А.
+Степени скуп скупа А се означава са p(A).
+
+		</div>
+</div>			
+		<footer>
+		
+
+<b>Дилема са празним скупом</b>
+<div>
+Када говоримо о степеним скуповима једана од најзбуњућијих тачки је празан скуп (∅) и колико његов степени скуп има елемената.
+Ипак све ово је једноставније него што изгледа. По дефиницији ∅ је скуп без елемената, тако да му је кардиналност 0. По правилу кардиналност његовог степеног скупа је 20, што је један. Е сада кад би смо прошли кроз наше гранање да би смо видели све елементе неког скупа добићемо скуп са празним скупом као елементом р(∅) = {∅}, тако да наш скуп има један елемент, што је празан скуп.
+Друга проблематична тачка би била степени скуп степеног скупа р({∅}). Пошто р(∅) има кардиналност | р(∅)| = 1, кардиналност његовог степеног скупа је по правилу 21, што је два. Опет се враћамо на наш систем гранања једини елемент овог скупа је ∅ и у овом случају можемо да бирамо да ли да га ставимо у скуп или не, према томе добијамо два решења скуп који садржи празан скуп {∅} и у другом случају када га не ставимо добијамо ∅. Тако да као решење добијамо р({∅}) = {{∅},∅}, који стварно има два елемента.
+</div>
+
+<b>Елменти и подскупови</b>
+<div>
+Какво је однос почетног скупа и његовог степеног скупа је још једна дилема која збуњује многе. Сваки почетни скуп је увек елемент степеног скупа А ∈ p(A), али није и његов подскуп. Један од ретких скупова за које важи оба је празан скуп.
+</div>
+		</footer>
+	</body>
+</html>

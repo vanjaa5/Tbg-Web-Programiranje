@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Скупови у информатици</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="sajt-glavni.css">
+		<link rel="stylesheet" href="header.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	</head>
+
+				
+	<body>
+		
+		    <header class="header">
+		<div class="left-section">
+			<div class="dropdown"> 
+				 <button class="button">Мени</button> 
+				 <div class="content">
+					<a href="sajt-glavni.html">О скуповима</a> 
+					<a href="pregledTeorijeSkupa.html">Елементи и основне операције скупова</a> 
+					<a href ="svojstva-skupova.html"> Остала својства скупова</a> 
+					<a href ="stepeni-skup.html"> Степени скуп</a> 
+					<a href ="skupovi-informatika.html"> Скупови у инфорамтици</a>
+				 </div>
+		</div>
+      </div>
+
+      <div class="middle-section">
+        <h1>Скупови</h1>
+      </div>
+
+      <div class="right-section">
+        <div class="referenca">Референце</div>
+		 <div class="mini-info">
+        
+        <div class="mini-text">
+          <a href="https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_sets.htm" class="ref">
+          Tutorialspoint
+        </a>
+		
+        <a href="https://neramat.com/logika-i-skupovi/skupovi/" class="ref">
+          Nermata
+        
+        </a>
+		 <a href="https://www.rajak.rs/definicije/matematicka-logika-skupovi-relacije-i-funkcije/skupovi/" class="ref">
+          Rajak
+        
+        </a>
+		 <a href="https://www.youtube.com/watch?v=4TlCToZZ5gA&list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz&index=8" class="ref">
+          TrevTutor
+        
+        </a>
+		 <a href="https://medium.com/basecs/set-theory-the-method-to-database-madness-5ec4b4f05d79" class="ref">
+          medium
+        </a>
+        </div>
+
+        
+      </div>
+      </div>
+
+    </header>
+		
+		
+		
+		
+		
+		
+<div id="sredina">		
+		<div id="meni">
+		<img src="slike/sql-skupovi.jpg">
+			
+		</div>
+		
+		<div id="tekst-desno">
+			Скупови се користе свуда око нас, примењујемо их да би смо сврстали различите појмове. Једна од најчешћих примена скупова у информатици је у базама података. 
+
+Наиме цела логика повезивања табела се заснива на скуповним операцијама. Свака табела представља један скуп са својим подскуповима, који су везани са другим табелама уз помоћ њиховог пресека, у случају база података то су заједнички подаци две табеле нпр. примарни кључ једне и страни кључ друге табеле.
+		</div>
+</div>			
+		<footer>
+		
+<b>Примена скупова у базама података</b>
+
+  
+<div>
+Самом командом INNER JOIN/JOIN повезујемо два скупа преко заједничких података или ти уз помоћ њиховог пресека.
+Команда LEFT JOIN/LEFT OUTER JOIN за две табеле налази разлику у скупу или релативну комплементарност две табеле. RIGHT JOIN ради исто само за другу табелу.
+Док нам команда CROSS JOIN даје декартов скуп две табеле. За INNER JOIN се такође може рећи да нам даје декартов скуп две табеле, али са додатним условима.
+ 
+Унутар неких DBSM-програма (eng. Data Base Managment System – Систем за Управљање базама података), попут MySQL, ANIS SQL, PostgreSQL итд. постоје операције UNION и INTERSECT, редом представљајући сличан концепт као скуповне операције унија и  пресек.
+ 
+ 
+У неким SQL језицима, попут ANIS SQL, T-SQL, PostgreSQL, постоји и функција EXCEPT, која представља скуповну операцију разлике.
+ 
+У Оracle Database варијанти SQL  се користи резервисана реч MINUS уместо EXCEPT.
+ 
+Док унутар MySQL не постоји операција EXCEPT, већ се може добити уз помоћ операција LEFT JOIN и NOT IN
+
+
+Сем у базама података у информатици скупове налазимо у програмирању где у програмима попут Jave, Python-a,Ruby-a и JavaScript-a имамо објекат Set, што је енглески назив за скуп.
+</div>
+		</footer>
+	</body>
+</html>
